@@ -13,4 +13,14 @@
 
 Route::get('/', function () {
     return view('welcome');
+    
 });
+
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
+
+Route::get('/announcements', 'AnnouncementController@index');
+Route::post('/announcement', 'AnnouncementController@store');
+Route::delete('/announcement/{announcement}', 'AnnouncementController@destroy');
