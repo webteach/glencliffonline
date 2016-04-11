@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-<div class="footer">
-  <h1 style="text-align: center;">© Glencliff High School. All rights reserved.</h1>
-</div>
+<header class="header">
+    <h1 style="text-shadow: 2px 2px #000000;">Announcements</h1>
+</header>
 
 @section('content')
 

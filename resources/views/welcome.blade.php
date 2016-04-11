@@ -16,23 +16,23 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="media.gym.jpg" alt="gym">
+      <img src="media/pic1.jpg" alt="gym">
     </div>
 
     <div class="item">
-      <img src="media/b.JPG" alt="class room">
+      <img src="media/pic5.jpg" alt="class room">
     </div>
 
     <div class="item">
-      <img src="media/abcdefgh.JPG" alt="Mariachi">
+      <img src="media/pic2.jpg" alt="Mariachi">
     </div>
 
     <div class="item">
-      <img src="media/d.jpg" alt="art">
+      <img src="media/pic3.jpg" alt="art">
     </div>
     
     <div class="item">
-      <img src="media/abc.jpg" alt="art">
+      <img src="media/pic4.jpg" alt="art">
     </div>
   </div>
 

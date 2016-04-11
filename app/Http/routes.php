@@ -11,10 +11,13 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
-    
 });
+ Route::get('/public_announcements', function() {
+     return view('public_announcements'); 
+ });
+ 
 
 
 Route::auth();
