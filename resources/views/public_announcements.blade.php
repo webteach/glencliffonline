@@ -12,8 +12,6 @@
 
 <div style="text-align:left;font-size:40px;"></div>
            <aside class="aside aside1">
-        <div class="player">
-            <p class="one">
                 
             <video width="700px"height="550px" controls>
                 <source src="media/GHSvHendersonvillegame.mp4" type="video/mp4">
@@ -21,8 +19,12 @@
   </video>
         </aside>
 
-<aside class="aside aside2">
-<div class="scroll">
+<div class="container">
+    <?php
+    
+    
+    ?>
+    
 
 <p style="font-size:20px; color: #000000;">
 Welcome students and parents to the announcements page. This is the page where 

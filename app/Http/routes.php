@@ -11,13 +11,21 @@
 |
 */
 
-Route::get('/welcome', function () {
+Route::get('/', function () {
     return view('welcome');
 });
- Route::get('/public_announcements', function() {
+
+Route::get('/welcome', function() {
+    return view('welcome');
+});
+
+Route::get('/public_announcements', function() {
      return view('public_announcements'); 
  });
- 
+
+Route::get('/teacher_area', function() {
+    return view('teacher_area');
+}); 
 
 
 Route::auth();

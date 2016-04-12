@@ -4,20 +4,7 @@
 
 @section('content')
 
- @if (Auth::guest())
-                        <li><a href="{{ url('/login') }}">Login</a></li>
-                        <li><a href="{{ url('/register') }}">Register</a></li>
-                    @else
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                {{ Auth::user()->name }} <span class="caret"></span>
-                            </a>
 
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
-                            </ul>
-                        </li>
-                    @endif
 
 <!--Boostrap Boilerplate...-->
 
@@ -26,7 +13,7 @@
     @include('common.errors')
     
     <!--New Announcement Form-->
-    <form action="{{ url('announcement') }}" method="POST" class="form-horizontal">
+    <form action="/announcement" method="POST" class="form-horizontal">
         {!! csrf_field() !!}
         
         <!--Input Announcement-->
@@ -48,7 +35,7 @@
             <label for="announce" class="col-sm-3 control-label">Announcement</label>
             
             <div class="col-sm-6">
-                <input type="text" name="announce" id="announce" class="form-control">
+                <input type="text" name="announcements" id="announcements" class="form-control">
             </div>
         </div>
         
@@ -86,7 +73,7 @@
                                 </td>
 
                                     <td>
-        <form action="{{ url('announcement/'.$announcement->id) }}" method="POST">
+        <form action="/announcement/{{ $announcement->id }}" method="POST">
             {!! csrf_field() !!}
             {!! method_field('DELETE') !!}
 
