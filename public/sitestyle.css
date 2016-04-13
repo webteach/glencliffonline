@@ -1,0 +1,148 @@
+body {
+  background: #ccc;
+}
+
+.headerhome {
+    background-color: #33ccff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px; 
+    border-style: ridge;
+    width: 100%;
+    border-color: black;
+}
+
+    
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content:center;
+    justify-content:center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 15px;
+
+}
+
+@media screen and (max-width: 799px) {
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      height: 250px;
+      width: 100%;
+      margin: 0px;
+}
+}
+
+@media screen and (min-width: 800px) {
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      height: 700px;
+      width: 100%;
+      margin: auto;
+}
+}
+
+/*Phone and tablet CSS*/
+@media screen and (max-width: 799px) {
+.container{
+    background: #3f3f3f;
+    width: 100%;
+    height: 250px;
+
+}
+}
+
+/*Deskstop CSS*/
+@media screen and (min-width: 800px) {
+.container {
+    float: left;
+    background: #3f3f3f;
+    width:60%;
+    height: 800px;
+
+}
+}
+
+
+/*Phone and tablet CSS*/
+@media screen and (max-width: 799px) {
+.container2{
+    background: #E60000;
+    width: 100%;
+    height: 250px;
+
+}
+}
+
+/*Deskstop CSS*/
+@media screen and (min-width: 800px) {
+.container2 {
+    float: left;
+    background: #E60000;
+    width:60%;
+    height: 800px;
+
+}
+}
+/*Phone and Tablet CSS*/
+@media screen and (max-width: 799px) {
+.welcome {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #E60000;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 10px;
+}
+}
+/*Desktop CSS*/
+@media screen and (min-width: 800px) {
+.welcome {
+    float: left;
+    width: 40%;
+    height: 800px;
+    background: #E60000;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 10px;
+}
+}
+p {
+  color: #fff;
+  font-size: 20px;
+  font-family: Verdana;
+}
+.aside1 {
+  display: inline;
+  background: gray;
+  margin: 0px;
+  width:20px;
+}
+
+.footer {
+  clear:both;
+}
+
+
+
+@media all and (min-width: 400px) { 
+  .aside1 { flex: 1 auto; }
+}
+
+ 
+@media all and (min-width: 350px) {
+  .main    { flex: 3 0px; }
+    .carousel { order: 1; } 
+    .welcome  { order: 2; }
+    .aside2 { order: 4; }
+    .footer { order: 5;}
+}
+
+.scroll {
+  overflow: hidden;
+}

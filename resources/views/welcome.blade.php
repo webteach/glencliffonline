@@ -1,7 +1,10 @@
 @extends('layouts.app')
 
+<div class="headerhome">
+  <h1>Glencliff High School</h1>
+</div>
 @section('content')
-<div class=" carousel container">
+<div class=" carousel container2">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->

@@ -27,8 +27,8 @@ class User extends Authenticatable
     /**
      * Get all of the tasks for the user.
      */
-     public function announcements()
+     public function tasks()
      {
-         return $this->hasMany(Announcement::class);
+         return $this->hasMany(Task::class);
      }
 }

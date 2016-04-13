@@ -11,9 +11,12 @@
 |
 */
 
+    
 Route::get('/', function () {
     return view('welcome');
 });
+
+
 
 Route::get('/welcome', function() {
     return view('welcome');
@@ -28,10 +31,18 @@ Route::get('/teacher_area', function() {
 }); 
 
 
-Route::auth();
+
 
 Route::get('/home', 'HomeController@index');
 
 Route::get('/announcements', 'AnnouncementController@index');
 Route::post('/announcement', 'AnnouncementController@store');
 Route::delete('/announcement/{announcement}', 'AnnouncementController@destroy');
+
+Route::auth();
+
+
+
+Route::get('/tasks', 'TaskController@index');
+Route::post('/task', 'TaskController@store');
+Route::delete('/task/{task}', 'TaskController@destroy');

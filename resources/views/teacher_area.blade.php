@@ -20,7 +20,7 @@
                     @endif
                 </ul>
                 
-<a href="{{ url('/announcements') }}">Create Announcement</a>
+<a href="{{ url('/tasks') }}">Create Announcement</a>
 <div>
     <h1>Welcome to the teacher area of Glencliff Online</h1>
     <p>Here you can post announcements to the your academy or the whole school.  Please click one of the links 

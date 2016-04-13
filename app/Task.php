@@ -2,10 +2,9 @@
 
 namespace App;
 
-use App\User;
 use Illuminate\Database\Eloquent\Model;
 
-class Announcement extends Model
+class Task extends Model
 {
     /**
      * The attributes that are mass assignable.
@@ -14,9 +13,8 @@ class Announcement extends Model
      */
      protected $fillable = ['name'];
      
-     
      /**
-      * Get the user that owns the announcement.
+      * Get the user that owns the task.
       */
       public function user()
       {

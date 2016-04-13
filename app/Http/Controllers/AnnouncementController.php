@@ -13,6 +13,13 @@ use App\Repositories\AnnouncementRepository;
 class AnnouncementController extends Controller
 {
     /**
+     * The announcement repository instance;
+     * 
+     * @var AnnouncementRepository
+     */
+     protected $announcements;
+     
+    /**
      * Create a new controller instance.
      * 
      * @return void
@@ -32,7 +39,6 @@ class AnnouncementController extends Controller
       */
       public function index(Request $request)
       {
-          $announcements = Announcement::where('user_id', $request->user()->id)->get();
           
           return view('announcements.index', [
               'announcements' => $this->announcements->forUser($request->user()),
@@ -48,23 +54,22 @@ class AnnouncementController extends Controller
        public function store(Request $request)
        {
            $this->validate($request, [
-               'teacher_name' => 'required|max:255',
-               'academy_name' => 'required|max:255',
-               'announce' => 'required',
+               'name' => 'required|max:255',
                ]);
               
             $request->user()->announcements()->create([
-                'teacher_name' => $request->teacher_name,
+                'name' => $request->name,
                 ]);
                 
                 return redirect('/announcements');
        }
+
        
-       public function destroy(Request $request, Announcement $announcements)
+       public function destroy(Request $request, Announcement $announcement)
        {
-           $this->authorize('destroy', $announcements);
+           $this->authorize('destroy', $announcement);
            
-           $announcements->delete();
+           $announcement->delete();
            
            return redirect('/announcements');
        }

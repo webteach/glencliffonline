@@ -1,29 +1,28 @@
 @extends('layouts.app')
 
-<header class="header">
+<header class="headerhome">
     <h1 style="text-shadow: 2px 2px #000000;">Announcements</h1>
 </header>
 
 @section('content')
 
-<div>
-    <h1>This is the public_annoucements page.</h1>
+<div class="container scroll" style="width: 50%;">
+    <h1>this is where the announcements will display</h1>
+    <div>
+        <?php
+        require('db_connect.php')
+        
+    </div>
+</div> 
+
+<div class="flex-container">
+    <video width="700px"height="550px" controls>
+      <source src="media/GHSvHendersonvillegame.mp4" type="video/mp4">
+    </video>
 </div>
 
-<div style="text-align:left;font-size:40px;"></div>
-           <aside class="aside aside1">
-                
-            <video width="700px"height="550px" controls>
-                <source src="media/GHSvHendersonvillegame.mp4" type="video/mp4">
-         
-  </video>
-        </aside>
 
-<div class="container">
-    <?php
-    
-    
-    ?>
+   
     
 
 <p style="font-size:20px; color: #000000;">
