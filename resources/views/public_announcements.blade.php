@@ -6,24 +6,16 @@
 
 @section('content')
 
-<div class="container scroll" style="width: 50%;">
-    <h1>this is where the announcements will display</h1>
-    <div>
-        <?php
-        require('db_connect.php')
-        
-    </div>
-</div> 
+<video class="videoplayer" controls>
+    <source src="media/GHSvHendersonvillegame.mp4" type="video/mp4">
+</video>
 
-<div class="flex-container">
-    <video width="700px"height="550px" controls>
-      <source src="media/GHSvHendersonvillegame.mp4" type="video/mp4">
-    </video>
+<div class="container scroll">
+    <h1>this is where the announcements will display</h1>
 </div>
 
 
-   
-    
+
 
 <p style="font-size:20px; color: #000000;">
 Welcome students and parents to the announcements page. This is the page where 

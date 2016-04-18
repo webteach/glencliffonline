@@ -22,6 +22,8 @@ class AuthController extends Controller
     */
 
     use AuthenticatesAndRegistersUsers, ThrottlesLogins;
+    
+    protected $gaurd = 'admin';
 
     /**
      * Where to redirect users after login / registration.

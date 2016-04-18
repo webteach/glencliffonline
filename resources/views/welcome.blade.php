@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
+@section('content')
 <div class="headerhome">
   <h1>Glencliff High School</h1>
 </div>
-@section('content')
-<div class=" carousel container2">
-  <br>
+
+<div class="container">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -19,25 +19,24 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="media/pic1.jpg" alt="gym">
+      <img src="media/websitepics/carousel/DSCN0078.jpg" alt="gym">
     </div>
 
     <div class="item">
-      <img src="media/pic5.jpg" alt="class room">
+      <img src="media/websitepics/carousel/DSCN0242.jpg" alt="class room">
     </div>
 
     <div class="item">
-      <img src="media/pic2.jpg" alt="Mariachi">
+      <img src="media/websitepics/carousel/DSCN0079.jpg" alt="Mariachi">
     </div>
 
     <div class="item">
-      <img src="media/pic3.jpg" alt="art">
+      <img src="media/websitepics/carousel/DSCN0181.jpg" alt="art">
     </div>
     
     <div class="item">
-      <img src="media/pic4.jpg" alt="art">
+      <img src="media/websitepics/carousel/DSCN0239.jpg" alt="art">
     </div>
-  </div>
 
   <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -48,11 +47,13 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+   </div>
   </div>
 </div>
-  
+ 
+ 
   <div class="welcome">
-    <h1>Welcome parents and students of the Glencliff community.</h1>
+   <h1>Welcome parents and students of the Glencliff community.</h1>
     <p>We are happy to announce that you are looking at the new Glencliff website. 
     This website was created so that parents and students may be more aware of what 
     is happening in Glencliff High School. In this website we have two new features 
@@ -62,7 +63,7 @@
     of student's shoes and they will be there so that other students can guess who owns 
     that pair of shoes.
     </p>
-    </div>
+  </div>
     
 
 

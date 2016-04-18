@@ -16,7 +16,37 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/sneekpeak', function () {
+    return view('sneakpeak');
+});
 
+Route::get('/fabi', function () {
+    return view('fabi');
+});
+
+Route::get('/amsr', function() {
+    return view('amsr');
+});
+    
+Route::get('/freshmen', function() {
+    return view('freshmen');
+});
+
+Route::get('/news', function () {
+    return view('news');
+});
+
+Route::get('/sports', function() {
+    return view('news');
+});
+
+Route::get('/selfieoftheday', function() {
+    return view('selfieoftheday');
+});
+
+Route::get('/eup', function () {
+    return view('eup');
+});
 
 Route::get('/welcome', function() {
     return view('welcome');
@@ -27,10 +57,16 @@ Route::get('/public_announcements', function() {
  });
 
 Route::get('/teacher_area', function() {
-    return view('teacher_area');
+    return view('/auth/login');
 }); 
 
+Route::get('/sneakpeek', function () {
+    return view('sneakpeek');
+});
 
+Route::get('/frc', function() {
+    return view('frc');
+});
 
 
 Route::get('/home', 'HomeController@index');
