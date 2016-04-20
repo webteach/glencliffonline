@@ -36,7 +36,7 @@
                         </div>
                       </div>
                       <!--Select Academy-->
-                      <form role="form">
+                      <form action="task" method="POST" role="form">
                             <div class="radio flex-container">
                                  <label class="radio-inline"><input type="radio" name="optradio">School Wide</label>
                                  <label class="radio-inline"><input type="radio" name="optradio">Freshmen</label>
