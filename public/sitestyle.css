@@ -129,6 +129,10 @@ body {
     padding: 10px;
     text-align: center;
 }
+
+h1 {
+  font-size:30px;
+  color:#ffffff;
 }
 
 p {
@@ -151,10 +155,13 @@ p {
 
 
 .scroll {
-  width: 400px;
-  height: 100px;
+  width: 98%;
+  height: 200px;
   word-wrap: break-word;
   overflow: auto;
+  margin:20px;
+  background-color:#2a45ff;
+  text-align:center;
   
 }
 
@@ -185,4 +192,10 @@ th, td {
 .img {
   width: 90%;
   height: auto;
+}
+
+.vid {
+  width:100%;
+  background-color:#ff0000;
+  text-align:center;
 }

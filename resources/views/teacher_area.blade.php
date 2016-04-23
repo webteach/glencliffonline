@@ -37,7 +37,7 @@
                
            }
        </script>
-       <a href="{{ url('/tasks') }}"></a>
+       <a href="{{ url('/posts') }}"></a>
 
 </div>
 

@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="headerhome" style="background: #002699;">
-    <h1>Ford Academy of Buisness and Inovation</h1>
+    <h1>Ford Academy of Business and Innovation</h1>
 </div>
 
 <div class="flex-container container">
