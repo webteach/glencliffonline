@@ -39,8 +39,8 @@ body {
 @media screen and (min-width: 800px) {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-      height: 550px;
-      width: 90%;
+      height: 600px;
+      width: 100%;
       margin: auto;
 }
 }
@@ -48,7 +48,7 @@ body {
 /*Phone and tablet CSS*/
 @media screen and (max-width: 799px) {
 .container{
-    background: #E60000;
+    background: #737373;
     width: 100%;
     height: auto;
 
@@ -58,7 +58,7 @@ body {
 /*Deskstop CSS*/
 @media screen and (min-width: 800px) {
 .container {
-    background: #E60000;
+    background: #737373;
     width:100%;
     height: auto;
     margin: auto;

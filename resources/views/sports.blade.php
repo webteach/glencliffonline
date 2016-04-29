@@ -2,5 +2,7 @@
 
 @section('content')
 
-<div class="flex-container"></div>
+<div class="headerhome">
+    <h1>Sports</h1>
+</div>
 @endsection

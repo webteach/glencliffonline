@@ -37,7 +37,7 @@ Route::get('/news', function () {
 });
 
 Route::get('/sports', function() {
-    return view('news');
+    return view('sports');
 });
 
 Route::get('/selfieoftheday', function() {
