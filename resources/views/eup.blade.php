@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="headerhome">
-    <h1>Environmental Urban Planning Academy</h1>
+    <h1>Academy of Environmental and Urban Planning</h1>
 </div>
 <div class="flex-container">
      <img class="img" src="media/websitepics/cardwellgarden/DSCN0483.jpg">
