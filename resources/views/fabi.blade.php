@@ -20,11 +20,11 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="media/websitepics/fabi/DSCN0459.jpg" alt="Students working in web design class">
+      <img src="media/websitepics/fabi/ambassbiz.jpg" alt="Senior ambassadors with FABI business partners">
     </div>
 
     <div class="item">
-      <img src="media/websitepics/fabi/DSCN0461.jpg" alt="Karla working on a computer">
+      <img src="media/websitepics/fabi/DSCN0459.jpg" alt="Karla working on a computer">
     </div>
 
     <div class="item">
