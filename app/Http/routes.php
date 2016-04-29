@@ -53,12 +53,10 @@ Route::get('/welcome', function() {
 });
 
 Route::get('/public_announcements', function() {
-     return view('public_announcements'); 
+     return view('home'); 
  });
 
-Route::get('/teacher_area', function() {
-    return view('/auth/login');
-}); 
+
 
 Route::get('/sneakpeek', function () {
     return view('sneakpeek');
@@ -68,17 +66,47 @@ Route::get('/frc', function() {
     return view('frc');
 });
 
+Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('/announcements', 'AnnouncementController@index');
-Route::post('/announcement', 'AnnouncementController@store');
-Route::delete('/announcement/{announcement}', 'AnnouncementController@destroy');
-
-Route::auth();
-
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
 
 
-Route::get('/tasks', 'TaskController@index');
-Route::post('/task', 'TaskController@store');
-Route::delete('/task/{task}', 'TaskController@destroy');
+Route::get('/home',['as' => 'home', 'uses' => 'PostController@index']);
+
+
+Route::group(['middleware' => ['auth']], function()
+{
+	// show new post form
+	Route::get('new-post','PostController@create');
+	
+	// save new post
+	Route::post('new-post','PostController@store');
+	
+	// edit post form
+	Route::get('edit/{slug}','PostController@edit');
+	
+	// update post
+	Route::post('update','PostController@update');
+	
+	// delete post
+	Route::get('delete/{id}','PostController@destroy');
+	
+	// display user's all posts
+	Route::get('my-all-posts','UserController@user_posts_all');
+	
+	// display user's drafts
+	Route::get('my-drafts','UserController@user_posts_draft');
+	
+	
+});
+//users profile
+Route::get('user/{id}','UserController@profile')->where('id', '[0-9]+');
+// display list of posts
+Route::get('user/{id}/posts','UserController@user_posts')->where('id', '[0-9]+');
+// display single post
+Route::get('/{slug}',['as' => 'post', 'uses' => 'PostController@show'])->where('slug', '[A-Za-z0-9-_]+');
