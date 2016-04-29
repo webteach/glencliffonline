@@ -56,12 +56,10 @@
    <h1>Welcome parents and students of the Glencliff community.</h1>
     <p>We are happy to announce that you are looking at the new Glencliff website. 
     This website was created so that parents and students may be more aware of what 
-    is happening in Glencliff High School. In this website we have two new features 
-    which are selfie of the day and sneak peak. Selfie of the day is when students 
-    submit there selfie/pictures and we will select one. Once we selected a picture 
-    we will have it up on the glencliff website. Sneak peek is when we have a picture 
-    of student's shoes and they will be there so that other students can guess who owns 
-    that pair of shoes.
+    is happening inside Glencliff High School. On this website we have two new features. 
+    Selfie of the day and Sneak Peak. Selfie of the day gives students a chance to 
+    submit their selfie/pictures so that we may select one to showcase.  Sneak peek is when we post a picture 
+    of a student's shoes so that other students can guess who belongs to that pair of shoes.
     </p>
   </div>
     

@@ -16,7 +16,7 @@ pursue their passions creatively and to develop character through quality instru
 supportive community. This academy is supported by the Ford Corporation, including the Ford Motor Credit 
 Company and the Ford Next Generation Learning initiative. Students in FABI are able to select one of three 
 pathway classes to further improve their academic experience. The current pathway classes are Ford 
-PAS/Entrepreneurship, Web Design, and Visual Arts.</p>
+PAS/Entrepreneurship, Web Design, and Innovative Arts.</p>
 </div>
 
 
