@@ -61,7 +61,7 @@ body {
     background: #737373;
     width:100%;
     height: auto;
-    margin: auto;
+   
     
 
 }
@@ -130,6 +130,7 @@ body {
     text-align: center;
 }
 }
+
 
 p {
   color: #000;
