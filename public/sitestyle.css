@@ -32,7 +32,7 @@ body {
 .carousel-inner > .item > a > img {
       height: 250px;
       width: 90%;
-      margin: 0px;
+      margin: auto;
 }
 }
 
