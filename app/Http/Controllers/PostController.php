@@ -87,7 +87,7 @@ class PostController extends Controller
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function edit(Request $request,$slug)
+	public function edit(Request $request, $slug)
 	{
 		$post = Posts::where('slug',$slug)->first();
 		if($post && ($request->user()->id == $post->author_id || $request->user()->is_admin()))

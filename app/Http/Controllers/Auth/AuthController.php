@@ -21,7 +21,7 @@ class AuthController extends Controller
     */
     use AuthenticatesAndRegistersUsers, ThrottlesLogins;
     
-   
+  
     /**
      * Where to redirect users after login / registration.
      *
@@ -49,6 +49,7 @@ class AuthController extends Controller
             'name' => 'required|max:255',
             'email' => 'required|email|max:255|unique:users',
             'password' => 'required|min:6|confirmed',
+            'code' => 'requred|code|confirmed',
         ]);
     }
     /**
