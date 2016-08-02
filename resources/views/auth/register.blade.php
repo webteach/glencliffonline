@@ -12,17 +12,7 @@
                         {!! csrf_field() !!}
                         
                         <div class="form-group{{ $errors->has('code') ? ' has-error' : '' }}">
-                            <label class="col-md-4 control-label">Teacher Code</label>
-
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" name="code" value="{{ old('code') }}">
-
-                                @if ($errors->has('code'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('code') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
+                            
                         </div>
                         
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
