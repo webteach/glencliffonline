@@ -70,7 +70,7 @@ body {
 /*Desktop CSS*/
 @media screen and (min-width: 800px) {
   .videoplayer {
-    width: 60%;
+    width: 90%;
     height: auto;
   }
 }
