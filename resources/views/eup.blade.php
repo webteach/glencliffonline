@@ -10,7 +10,7 @@
 </div>
 <div class="container">
     <div class="flex-container">
-    <p>Our mission is to accel academically, utilizing skills and resources to positively impact the community. 
+    <p>Our mission is to excel academically, utilizing skills and resources to positively impact the community. 
     Our students in the EUP academy are learning how to use skills and resources to positively impact the community. 
     In the freshmen and sophomore classes they build model bridges. They are doing this so that they can understand
     the process of using tools. Later, when they become juniors and seniors they will start building lifesize projects.
