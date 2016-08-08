@@ -4,10 +4,9 @@
 <div class="headerhome">
   <h1>Glencliff High School</h1>
 </div>
-<!-- Comment out Carousel
 <div class="container">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators
+  <!-- Indicators-->
     <ol class="carousel-indicators">
       <li class="li_caro" data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li class="li_caro" data-target="#myCarousel" data-slide-to="1"></li>
@@ -16,7 +15,7 @@
       <li class="li_caro" data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
 
-  <!-- Wrapper for slides
+  <!-- Wrapper for slides-->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="media/websitepics/carousel/DSCN0078.jpg" alt="gym">
@@ -38,7 +37,7 @@
       <img src="media/websitepics/carousel/DSCN0239.jpg" alt="art">
     </div>
 
-  <!-- Left and right controls 
+  <!-- Left and right controls-->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -50,13 +49,14 @@
    </div>
   </div>
 </div>
--->
+<!--
 <div class="welcome">
   <video class="videoplayer" width="1200" height="600" controls>
   <source src="media/Principal_address_1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>
+-->
  
   <div class="welcome">
    <h1>Welcome parents and students of the Glencliff community.</h1>
