@@ -66,7 +66,7 @@ Route::get('/frc', function() {
     return view('frc');
 });
 
-/** Route::auth(); */
+Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
