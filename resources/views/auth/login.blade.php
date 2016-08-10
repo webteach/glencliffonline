@@ -55,7 +55,7 @@
                                 </button>
                             </div>
                                 <div class="flex-container">
-                                 <!-- <a class="btn btn-link" href="{{ url('register') }}">Register</a>-->
+                                 <a class="btn btn-link" href="{{ url('register') }}">Register</a>
                                   <a class="btn btn-link" href="{{ url('/password/reset') }}">Forgot Your Password?</a>
                                 </div>
                             </div>
