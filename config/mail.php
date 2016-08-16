@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => support, 'name' => Glencliffonline_support_team],
+    'from' => ['address' => support, 'name' => Support],
 
     /*
     |--------------------------------------------------------------------------
