@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => support, 'name' => Support],
+    'from' => ['address' => null, 'name' => null],
 
     /*
     |--------------------------------------------------------------------------
