@@ -102,8 +102,18 @@ Route::group(['middleware' => ['auth']], function()
 	// display user's drafts
 	Route::get('my-drafts','UserController@user_posts_draft');
 	
+	//display ballot
+	Route::get('ballot', 'BallotController@show');
+	
+	//store votes
+	Route::post('ballot', 'BallotController@store');
+	
+	//update votes
+	Route::post('ballot', 'BallotController@update');
 	
 });
+	
+	
 //users profile
 Route::get('user/{id}','UserController@profile')->where('id', '[0-9]+');
 // display list of posts

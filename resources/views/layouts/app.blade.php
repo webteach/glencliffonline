@@ -59,6 +59,7 @@
 							<li><a href="{{ url('/user/'.Auth::id().'/posts') }}">My Posts</a></li>
 						@endif
 							<li><a href="{{ url('/user/'.Auth::id()) }}">My Profile</a></li>
+							<li><a href="{{ url('/ballot') }}">Vote Here</a></li>
 								<li><a href="{{ url('/logout') }}">Logout</a></li>
 						</ul>
 				 </li>
