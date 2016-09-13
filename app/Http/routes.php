@@ -103,13 +103,8 @@ Route::group(['middleware' => ['auth']], function()
 	Route::get('my-drafts','UserController@user_posts_draft');
 	
 	//display ballot
-	Route::get('ballot', 'BallotController@show');
-	
-	//store votes
-	Route::post('ballot', 'BallotController@store');
-	
-	//update votes
-	Route::post('ballot', 'BallotController@update');
+	Route::get('ballot', function() {
+		return view('ballot'); });
 	
 });
 	
