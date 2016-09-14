@@ -32,9 +32,6 @@ Route::get('/freshmen', function() {
     return view('freshmen');
 });
 
-Route::get('fa_newsletter_09_2016.pdf', function() {
-	return view('fa_newsletter_09_2016');
-});
 
 Route::get('/news', function () {
     return view('news');
