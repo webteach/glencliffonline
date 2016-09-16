@@ -89,7 +89,7 @@ Route::group(['middleware' => ['auth']], function()
 	Route::post('new-post','PostController@store');
 	
 	// edit post form
-	Route::get('edit/{slug}','PostController@edit');
+	Route::get('edit/{$slug}','PostController@edit');
 	
 	// update post
 	Route::post('update','PostController@update');
@@ -103,10 +103,10 @@ Route::group(['middleware' => ['auth']], function()
 	// display user's drafts
 	Route::get('my-drafts','UserController@user_posts_draft');
 	
-	//display ballot
+/*	//display ballot
 	Route::get('ballot', function() {
 		return view('ballot'); });
-	
+*/	
 });
 	
 	
