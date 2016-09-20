@@ -18,9 +18,9 @@ There is no post till now. Login and write a new post now!!!
 					<a href="{{ url('edit/'.$post->slug) }}" style="border-radius: 25%; background-color: #d9d9d9; text-decoration:none; padding: 10px;">edit</a>
 					@else
 					<a href="{{ url('edit/'.$post->slug) }}" style="border-radius: 25%; background-color: #d9d9d9; text-decoration:none; padding: 10px;">edit</a>
+					</div>				
 					@endif
 				@endif
-					</div>
 			</h3>
 			<p>{{ $post->created_at->format('M d,Y \a\t h:i a') }} By <a href="{{ url('/user/'.$post->author_id)}}">{{ $post->author->name }}</a></p>
 			
