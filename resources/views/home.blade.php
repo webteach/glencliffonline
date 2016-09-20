@@ -15,9 +15,9 @@ There is no post till now. Login and write a new post now!!!
 				@if(!Auth::guest() && ($post->author_id == Auth::user()->id || Auth::user()->is_admin()))
 					@if($post->active == '1')
 					<div style="float:right;">
-					<a href="{{ url('edit/'.$post->slug) }}">edit Post</a>
+					<a href="{{ url('edit/'.$post->slug) }}" style="border-radius: 25%; background-color: #d9d9d9; text-decoration:none; padding: 10px;">edit</a>
 					@else
-					<a href="{{ url('edit/'.$post->slug) }}">edit Draft</a>
+					<a href="{{ url('edit/'.$post->slug) }}" style="border-radius: 25%; background-color: #d9d9d9; text-decoration:none; padding: 10px;">edit</a>
 					@endif
 				@endif
 					</div>
