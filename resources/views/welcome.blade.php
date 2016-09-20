@@ -52,13 +52,32 @@
   </div>
 </div>
 -->
-<!-- Video commented out -->
+<!-- Video commented out
 <div class="welcome">
   <video class="videoplayer" width="100%" height="600" controls>
   <source src="media/senior_atheletes.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>
+-->
+
+
+<div class="banner sotw_flex-container">
+
+<h1 class="sotw_h1">Glencliff Student of the Week!</h1>
+
+</div>
+
+<img src="/media/sotw_1.jpg" class="sotw_img">
+
+<div class="sotw_flex-container">
+
+<div class="sotw_flex-item" style="text-align: center;">Name:</div>
+
+<div class="sotw_flex-item">Joseph Hendrix</div>
+
+</div>
+
 
  
   <div class="welcome">

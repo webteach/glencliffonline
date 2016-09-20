@@ -187,3 +187,48 @@ th, td {
   width: 90%;
   height: auto;
 }
+
+.sotw_h1 {
+text-align: center;
+}
+
+.sotw_img {
+display: block;
+margin: auto;
+width: 60%;
+border: solid #000000 5px;
+}
+
+.sotw_flex-container {
+display: -webkit-flex;
+display: flex;
+width: 60%;
+height: 90px;
+background-color: red;
+margin: auto;
+border: solid #000000 5px;
+}
+
+.sotw_flex-item {
+background-color: #33ccff;
+text-align:center;
+width: 40%;
+height: 50px;
+margin: auto;
+border: solid #000000 5px;
+}
+
+.sotw_div {
+text-align: center;
+width: 500px;
+height: auto;
+margin: auto;
+}
+
+
+
+.banner {
+  width:60%;
+  background: #33ccff;
+  border: solid #000000 5px;
+}
