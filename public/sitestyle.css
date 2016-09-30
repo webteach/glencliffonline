@@ -1,7 +1,29 @@
-body {
-  background: #ccc;
+html, body {
+  height: 100;
 }
 
+.background1{
+background-image: url("media/wall.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.section1 {
+  width: 100%;
+  height: 700px;
+}
+
+.section2 {
+  width: 100%;
+  height: auto;
+}
+
+.intro {
+  padding: 25px;
+  font-family: verdana;
+}
 .headerhome {
     background-color: #33ccff;
     color: white;

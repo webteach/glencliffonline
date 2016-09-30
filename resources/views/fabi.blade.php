@@ -20,23 +20,23 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="media/websitepics/fabi/ambassbiz.jpg" alt="Senior ambassadors with FABI business partners">
+      <img src="media/ambassbiz.jpg" alt="Senior ambassadors with FABI business partners">
     </div>
 
     <div class="item">
-      <img src="media/websitepics/fabi/DSCN0459.jpg" alt="Karla working on a computer">
+      <img src="media/DSCN0459.jpg" alt="Karla working on a computer">
     </div>
 
     <div class="item">
-      <img src="media/websitepics/fabi/P1190668.jpg" alt="Art by Joseph Hendrix">
+      <img src="media/P1190668.jpg" alt="Art by Joseph Hendrix">
     </div>
 
     <div class="item">
-      <img src="media/websitepics/fabi/DSCN0229.jpg" alt="Students working in Entrepreneurship class">
+      <img src="media/DSCN0229.jpg" alt="Students working in Entrepreneurship class">
     </div>
     
     <div class="item">
-      <img src="media/websitepics/fabi/DSCN0279.jpg" alt="Students working in Entrepreneurship class">
+      <img src="media/DSCN0279.jpg" alt="Students working in Entrepreneurship class">
     </div>
 
   <!-- Left and right controls -->

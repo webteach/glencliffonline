@@ -1,9 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+<!--
 <div class="headerhome">
   <h1>Glencliff High School</h1>
 </div>
+-->
 <!--Comment out carousel
 <div class="container">
   
@@ -62,7 +64,7 @@ Your browser does not support the video tag.
 -->
 
 
-<div class="banner sotw_flex-container">
+<!--<div class="banner sotw_flex-container">
 
 <h1 class="sotw_h1">Glencliff Student of the Week!</h1>
 
@@ -77,9 +79,14 @@ Your browser does not support the video tag.
 <div class="sotw_flex-item">Joseph Hendrix</div>
 
 </div>
+-->
+<div class="background1">
+  <div class="section1">
+    
+  </div>
+</div>
 
-
- 
+ <!--
   <div class="welcome">
    <h1>Welcome parents and students of the Glencliff community.</h1>
     <p>We are happy to announce that you are looking at the new Glencliff website. 
@@ -90,7 +97,24 @@ Your browser does not support the video tag.
     of a student's shoes so that other students can guess who belongs to that pair of shoes.
     </p>
   </div>
-    
+  -->
+  
+  <div class="section2">
+    <h1 style="text-align: center;">
+      Glencliff Comprehensive High School
+    </h1>
+    <p class="intro">
+      Glencliff Comprehensive High School is the number 1 high school in Nashville,
+      TN.  We are over 1300 students strong and one of the original high schools 
+      in Nashville that adopted the Academy model.  Our students represent 42
+      countries and 29 different languages.  Diversity is our strength and we are
+      ALL proud to say "We are Glencliff!"  
+      </p>
+      <p class="intro">
+      Thank you for visiting this, our student
+      created website, that showcases who we are and what we do.
+    </p>
+  </div>
 
 
 @endsection
