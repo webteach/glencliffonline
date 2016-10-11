@@ -82,7 +82,7 @@ Your browser does not support the video tag.
 -->
 <div class="background1">
   <div class="section1">
-    
+    <span class="title">Colts Tackle Breast Cancer!</span>
   </div>
 </div>
 
@@ -101,8 +101,17 @@ Your browser does not support the video tag.
   
   <div class="section2">
     <h1 style="text-align: center;">
-      Glencliff Comprehensive High School
+      Breast Cancer Awareness Month
     </h1>
+    <p class="intro">
+      Please join Glencliff High School students as we participate 
+      in Breast Cancer Awareness month. This year the "Colts Tackle Breast Cancer,"
+      on and off the field.  Friday night's football game against
+      Cane Ridge High School will showcase students who particpated in raising 
+      awarness about this deadly disease in our school cafeteria.  Come see us 
+      in the cafeteria to find out how YOU can help the "Colts Tackle Breast Cancer."
+    </p>
+    <!--
     <p class="intro">
       Glencliff Comprehensive High School is the number 1 high school in Nashville,
       TN.  We are over 1300 students strong and one of the original high schools 
@@ -114,6 +123,7 @@ Your browser does not support the video tag.
       Thank you for visiting this, our student
       created website, that showcases who we are and what we do.
     </p>
+    -->
   </div>
 
 

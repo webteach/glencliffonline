@@ -32,11 +32,16 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
       <li><a href="{{ url('/home') }}">Announcements</a></li>
-      <li><a href="{{ url('/fabi') }}">FABI</a></li>
-      <li><a href="{{ url('/eup') }}">EUP</a></li>
+      	<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span><img src="an.jpg"/></span>Academies of GHS</a>
+			      <ul class="dropdown-menu" role="menu">
+				      <li><a href="{{ url('/fabi') }}">FABI</a></li>
+				      <li><a href="{{ url('/eup') }}">EUP</a></li>
+				      <li><a href="{{ url('/amsr') }}">AMSR</a></li>
+				      <li><a href="{{ url('/freshmen') }}">Freshmen Academy</a></li>
+	      		</ul>
+      	</li>
       <li><a href="{{ url('/frc') }}">FRC</a></li>
-      <li><a href="{{ url('/amsr') }}">AMSR</a></li>
-      <li><a href="{{ url('/freshmen') }}">Freshmen Academy</a></li>
       <li><a href="{{ url('/news') }}">News</a></li>
       <li><a href="{{ url('/sports') }}">Sports</a></li>
       <li><a href="{{ url('/selfieoftheday') }}">Selfie of the Day</a></li>
