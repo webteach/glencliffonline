@@ -33,7 +33,7 @@
       <ul class="nav navbar-nav navbar-right">
       <li><a href="{{ url('/home') }}">Announcements</a></li>
       	<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span><img src="an.jpg"/></span>Academies of GHS</a>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span><img src="media/aofn.jpg" style="height: 20px; width: 20px;"/></span> Academies of GHS</a>
 			      <ul class="dropdown-menu" role="menu">
 				      <li><a href="{{ url('/fabi') }}">FABI</a></li>
 				      <li><a href="{{ url('/eup') }}">EUP</a></li>
