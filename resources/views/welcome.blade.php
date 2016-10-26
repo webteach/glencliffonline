@@ -5,7 +5,7 @@
 <div class="headerhome">
   <h1>Glencliff High School</h1>
 </div>
--->
+
 <!--Comment out carousel
 <div class="container">
   
@@ -53,7 +53,7 @@
    </div>
   </div>
 </div>
--->
+
 <!-- Video commented out
 <div class="welcome">
   <video class="videoplayer" width="100%" height="600" controls>
@@ -61,7 +61,7 @@
 Your browser does not support the video tag.
 </video>
 </div>
--->
+
 
 
 <!--<div class="banner sotw_flex-container">
@@ -79,7 +79,7 @@ Your browser does not support the video tag.
 <div class="sotw_flex-item">Joseph Hendrix</div>
 
 </div>
--->
+
 <div class="background1">
   <div class="section1">
     <span class="title">Colts Tackle Breast Cancer!</span>
@@ -97,7 +97,7 @@ Your browser does not support the video tag.
     of a student's shoes so that other students can guess who belongs to that pair of shoes.
     </p>
   </div>
-  -->
+  
   
   <div class="section2">
     <h1 style="text-align: center;">
@@ -123,8 +123,8 @@ Your browser does not support the video tag.
       Thank you for visiting this, our student
       created website, that showcases who we are and what we do.
     </p>
-    -->
+  
   </div>
 
-
+-->
 @endsection

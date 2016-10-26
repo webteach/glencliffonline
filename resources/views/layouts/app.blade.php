@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html>
   <head>
@@ -18,7 +19,7 @@
 
 <body>
  
-<!--Navigation Bar-->
+<!--Navigation Bar
 <nav class="navbar navbar-inverse " style="margin: 0px;">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -52,7 +53,7 @@
 				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>Teachers</a>
 			      <ul class="dropdown-menu" role="menu">
 			        <li><a href="{{ url('/auth/login') }}">Login</a></li>
-				      <!--<li><a href="{{ url('/auth/register') }}">Register</a></li>-->
+				      <!--<li><a href="{{ url('/auth/register') }}">Register</a></li>
 			      </ul>
 			  </li>
 						@else
@@ -74,13 +75,15 @@
 			</div>
 		</nav>
 
-<!--Start Main Body-->
+<!--Start Main Body
 @yield('content')
 
 		
 		
-		<!-- Scripts -->
+		<!-- Scripts
 		<script src="{{ asset('/js/jquery.min-2.1.3.js') }}"></script>
 		<script src="{{ asset('/js/bootstrap.min-3.3.1.js') }}"></script>
 	</body>
 </html>
+
+-->
